@@ -1,1 +1,27 @@
-
+.lottostyle {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.lottohatter {
+    position: relative;
+    size: 50%;
+    top: 0;
+    left: 0;
+}
+.lottologo {
+    position: absolute;
+    size: 50%;
+    top: 15px;
+    left: 70px;
+}
+.korabbisorsolasoktext {
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+}
+.azelozohetinyeroszamoktext {
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+}
