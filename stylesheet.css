@@ -17,11 +17,29 @@
 }
 .korabbisorsolasoktext {
     position: absolute;
+    text-align: center;
     left: 1000px;
     top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .azelozohetinyeroszamoktext {
     position: absolute;
+    text-align: center;
     left: 1000px;
     top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#korabbisorsolasokbutton {
+    display: block;
+    width: 350px;
+    background-color: #141414;
+    border-width: 2px;
+    color: ivory;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: lightgray;
+    
 }
