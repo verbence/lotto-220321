@@ -1,38 +1,40 @@
-.lottostyle {
-    position: relative;
-    top: 0;
-    left: 0;
+#logo {
+    float: left;
 }
-.lottohatter {
-    position: relative;
-    size: 50%;
-    top: 0;
-    left: 0;
+.buttons {
+    width: 30%;
+    background-color: gray;
+    border-width: 3px;
+    border-top-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-right-style: solid;
 }
-.lottologo {
-    position: absolute;
-    size: 50%;
-    top: 15px;
-    left: 70px;
+
+hr {
+    border: 2px inset #000000;
 }
-.korabbisorsolasoktext {
-    position: absolute;
+a {
+    color: black;
+    text-emphasis: none;  
+    text-decoration: none;
+    display: inline-block;
+}
+.text {
     text-align: center;
-    left: 1000px;
-    top: 100px;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
 }
-.azelozohetinyeroszamoktext {
-    position: absolute;
-    text-align: center;
-    left: 1000px;
-    top: 200px;
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.buttonok {
-    display: block;
-    width: 350px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+.text1 {
+    background-color: white;
+    padding: 35px;
+    display: inline-block;
+    align-items:center;
+    justify-content:center;
+  }
+.text2 {
+    background-color: white;
+    padding: 35px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    display: inline-block;
+  }
