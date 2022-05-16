@@ -1,5 +1,5 @@
 #logo {
-    float: left;
+    text-align: left;
 }
 .buttons {
     width: 30%;
@@ -21,7 +21,9 @@ a {
     display: inline-block;
 }
 .text {
-    text-align: center;
+    display: flexbox;
+    flex-direction:initial;
+
 }
 .text1 {
     background-color: white;
