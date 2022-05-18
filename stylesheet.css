@@ -10,7 +10,6 @@
     border-left-style: solid;
     border-right-style: solid;
 }
-
 hr {
     border: 2px inset #000000;
 }
@@ -18,25 +17,28 @@ a {
     color: black;
     text-emphasis: none;  
     text-decoration: none;
-    display: inline-block;
+    float: left;
 }
-.text {
-    display: flexbox;
-    flex-direction:initial;
+#text {
+    float: right;
 
 }
 .text1 {
     background-color: white;
     padding: 35px;
-    display: inline-block;
-    align-items:center;
-    justify-content:center;
-  }
+    display: flex;
+    float: right;
+}
 .text2 {
     background-color: white;
     padding: 35px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    display: inline-block;
-  }
+    display: flex;
+    float: right;
+}
+#wrap {
+    float: left;
+}
+section {
+    float: right;
+    display: flex;
+}
