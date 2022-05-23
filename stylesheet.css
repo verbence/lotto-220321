@@ -1,14 +1,19 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
 #logo {
     text-align: left;
 }
 .buttons {
-    width: 30%;
+   /*  width: 30%; */
     background-color: gray;
     border-width: 3px;
     border-top-style: none;
     border-bottom-style: none;
     border-left-style: solid;
     border-right-style: solid;
+    text-align: center;
+    height: 100vh;
 }
 hr {
     border: 2px inset #000000;
@@ -19,26 +24,16 @@ a {
     text-decoration: none;
     float: left;
 }
-#text {
-    float: right;
-
-}
-.text1 {
-    background-color: white;
-    padding: 35px;
-    display: flex;
-    float: right;
-}
-.text2 {
-    background-color: white;
-    padding: 35px;
-    display: flex;
-    float: right;
-}
 #wrap {
     float: left;
+    max-width: 500px;
 }
-section {
-    float: right;
-    display: flex;
+.text1 {
+    text-align: left;
+    text-indent: 100px;
 }
+.golyok {
+    text-align: left;
+    text-indent: 100px;
+}
+
