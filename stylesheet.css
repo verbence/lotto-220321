@@ -58,3 +58,14 @@ a {
     font-size: 30px;
     text-indent: 100px;
 }
+/* Erdekes tortenetek oldal kezdete v */
+.tortenet {
+    text-align: justify;
+    width: 800px;
+    padding-right: 100px;
+    padding-left: 35%;
+    font-size: 20px;
+}
+.text3 {
+    padding-left: 35%;
+}
