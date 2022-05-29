@@ -6,7 +6,7 @@ html {
 }
 .buttons {
    /*  width: 30%; */
-    background-color: gray;
+    background-color: rgb(46, 46, 46);
     border-width: 3px;
     border-top-style: none;
     border-bottom-style: none;
@@ -19,7 +19,7 @@ hr {
     border: 2px inset #000000;
 }
 a {
-    color: black;
+    color: white;
     text-emphasis: none;  
     text-decoration: none;
     float: left;
@@ -31,9 +31,30 @@ a {
 .text1 {
     text-align: left;
     text-indent: 100px;
+    font-size: 50px;
+}
+.text2 {
+    text-align: left;
+    text-indent: 100px;
+    font-size: 35px;
 }
 .golyok {
     text-align: left;
     text-indent: 100px;
 }
 
+/* Leggyakoribb szamok oldal kezdete v */
+.topgolyok {
+    font-size:40px;
+    text-indent: 100px;
+    margin: -60px;
+}
+.vert {
+    vertical-align: middle;
+}
+/* Leghosszabb sorozatok szamsorban oldal kezdete v */
+
+#text1alt {
+    font-size: 30px;
+    text-indent: 100px;
+}
