@@ -1,7 +1,8 @@
 # lotto-220321
 # https://verbence.github.io/lotto-220321/
 
-Dokumentáció:
+Dokumentáció: <br>
+<hr>
 3/21: lotto-220321 névű projekt létrehozása, 6 issue létrehozása <br>
 4/04: Lotto projektből feltöltött fájlok, projekthez létfontosságú fájlok létrehozása <br>
 4/06: lotto-logo.png feltöltése <br>
